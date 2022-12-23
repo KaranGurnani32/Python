@@ -1,3 +1,9 @@
 
-friends = ["Kanishk", 2, True, "Indrankur", "Pragati"]
-print(friends[1:3])
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Kanishk", "Kunal", "Akkshay", "Indrankur", "Pragati"]
+
+friends.extend(lucky_numbers)
+print(friends)
+
+friends.append("Radhika")
+print(friends)
